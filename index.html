@@ -1,6 +1,16 @@
-{% extends "base.html" %}
-{% block content %}
-	
+<html>
+<head>
+<title>TJVMT</title>
+<script>
+$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script>
+</head>
+
+<body>
+<div id="header"></div>
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
@@ -119,7 +129,7 @@ If you have any questions, complaints, or suggestions regarding the website, ple
 		</div>
 	</div>
 </div>
-	</body>
+<div id="footer"></div>
+</body>
 </html>
 
-{% endblock %}
